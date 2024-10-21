@@ -9,15 +9,19 @@ import MainText from "./MainText/MainText";
 import MainBack from "./MainBack/MainBack";
 import MyLinks from "./Links/MyLinks";
 import MyStack from "./Links/MyStack";
+import FullBack from "./MainBack/fullBack";
 
 function App() {
   return (
       <div>
-        <MainBack>
-            <MainText/>
-            <MyLinks/>
-            <MyStack/>
-        </MainBack>
+          <FullBack>
+              <MainBack>
+                  <MainText/>
+                  <MyLinks/>
+                  <MyStack/>
+              </MainBack>
+          </FullBack>
+
 
       </div>
 

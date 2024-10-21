@@ -54,7 +54,9 @@ body, html {
             5px -5px 100px rgba(255, 255, 255, 0.3),
             -5px 5px 100px rgba(255, 255, 255, 0.3),
             -5px -5px 100px rgba(255, 255, 255, 0.3);
+    transition: 1s;
 }
+
 
 .description-text {
     margin-top: 10px;
