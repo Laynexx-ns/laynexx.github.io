@@ -12,27 +12,23 @@ body, html {
     background-color: #000000;
     color: white;
     font-family: 'Raleway', sans-serif;
-    opacity: 0.8;
-    margin-top: 50px;
-    margin-left: 2%;
-    width: 800px;
-    height: 250px;
+    opacity: 1;
+    width: 100%;
+    height: 10vw;
     border-radius: 60px;
-
+    transition: box-shadow 1s;
 
 }
 
 .MyStack:hover{
     box-shadow:
-            0 0 100px rgba(246, 246, 246, 0.1);
-    opacity:
-            1;
-    transition: 0.2s;
+            0 0 100px rgba(255, 255, 255, 0.1);
+    transition: 1s;
 }
 
 .stack-text{
-    padding-left: 35%;
-    font-size: 30px;
+    padding-left: 37%;
+    font-size: 1vw;
 }
 
 

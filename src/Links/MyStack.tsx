@@ -9,8 +9,11 @@ const MyStack = () => {
                     MyStack:
                 </h1>
             </div>
+            <div className="images-links">
+                <img/>
+            </div>
         </div>
     );
 }
 
-            export default MyStack;
+export default MyStack;

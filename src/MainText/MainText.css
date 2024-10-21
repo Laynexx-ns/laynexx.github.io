@@ -14,38 +14,47 @@ body, html {
     position: relative;
     resize: vertical;
     margin-left: 2%;
-    width: 800px;
+    width: 600px;
     height: 440px;
-    display: flex;
     background-color: #000000;
     color: white;
     text-align: left;
     border-radius: 60px;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+
 
 }
 
 .intro-text {
-    font-size: 30px;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 2vw;
 }
+
 
 .HI-text {
 
-    font-size: 200px;
+    font-size: 13.3vw;
     margin-right: 1rem;
     position: static;
 }
 
 .MyNameIs-text {
-    margin-bottom: 100px;
+    margin-bottom: 50vw;
     position: absolute;
 
     line-height: 0.8;
 }
 
 .Laynexx-text {
-    font-size: 100px;
+    font-size: 10vw;
+    transition: text-shadow 1s ease-in-out ;
+    margin-left: 0.8%;
 }
 
 .Laynexx-text:hover {
@@ -60,7 +69,7 @@ body, html {
 
 .description-text {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 0.9vw;
     margin-left: 10px;
     resize: block;
 }

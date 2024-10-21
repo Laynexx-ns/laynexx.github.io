@@ -10,21 +10,28 @@ import MainBack from "./MainBack/MainBack";
 import MyLinks from "./Links/MyLinks";
 import MyStack from "./Links/MyStack";
 import FullBack from "./MainBack/fullBack";
+import myLogo from './images/logo.png'
 
 function App() {
   return (
       <div>
-          <FullBack>
-              <MainBack>
+          <div className="container">
+              <div className="left-section">
                   <MainText/>
-                  <MyLinks/>
-                  <MyStack/>
-              </MainBack>
-          </FullBack>
+                  <img src={myLogo} className="my-logo"/>
+              </div>
+              <div className="right-section">
+                  <div className="my-links">
+                      <MyLinks/>
+                  </div>
+                  <div className="my-stack">
+                      <MyStack/>
+                  </div>
+              </div>
+          </div>
 
 
       </div>
-
 
 
   );

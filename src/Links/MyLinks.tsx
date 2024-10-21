@@ -9,6 +9,9 @@ const MyLinks: React.FC = () =>{
                     MyLinks:
                 </h1>
             </div>
+            <div className="images-links">
+                <img/>
+            </div>
         </div>
     )
 }
