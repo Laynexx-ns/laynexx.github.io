@@ -7,9 +7,12 @@ import MyStack from "./Links/MyStack";
 import myLogo from './images/logo.png'
 import FavoriteMusic from "./Links/FavoriteMusic";
 
+
+
 function App() {
   return (
-      <div>
+
+      <div className={"full-back"}>
           <div className="container">
               <div className="left-section">
                   <MainText/>
