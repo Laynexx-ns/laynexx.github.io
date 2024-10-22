@@ -1,7 +1,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 120vh;
 }
 
 .left-section {
@@ -13,11 +13,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
 .my-logo{
-    margin-top: 20%;
+    margin-top: 25%;
     margin-left: 1rem;
     width: 20%;
     transition:
@@ -45,3 +44,4 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
+
