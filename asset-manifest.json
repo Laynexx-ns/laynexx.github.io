@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/laynexx.github.io/static/css/main.285a99b6.css",
+    "main.js": "/laynexx.github.io/static/js/main.d3010c0c.js",
+    "static/js/453.5ed277f4.chunk.js": "/laynexx.github.io/static/js/453.5ed277f4.chunk.js",
+    "index.html": "/laynexx.github.io/index.html",
+    "main.285a99b6.css.map": "/laynexx.github.io/static/css/main.285a99b6.css.map",
+    "main.d3010c0c.js.map": "/laynexx.github.io/static/js/main.d3010c0c.js.map",
+    "453.5ed277f4.chunk.js.map": "/laynexx.github.io/static/js/453.5ed277f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.285a99b6.css",
+    "static/js/main.d3010c0c.js"
+  ]
+}
