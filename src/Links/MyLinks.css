@@ -44,6 +44,7 @@ body, html {
 }
 
 .links-text{
+    padding-top: 1vw;
     margin-top: 15px;
     padding-left: 37%;
     font-size: 1vw;

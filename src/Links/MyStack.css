@@ -33,6 +33,7 @@ body, html {
 
 
 .stack-text{
+    padding-top: 1vw;
     padding-left: 37%;
     font-size: 1vw;
 }
