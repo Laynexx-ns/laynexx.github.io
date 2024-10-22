@@ -8,7 +8,10 @@ body, html {
     width: 100%;
 }
 
-.MyStack{
+
+
+
+.music-text-container {
     background-color: #000000;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -19,24 +22,13 @@ body, html {
     transition: box-shadow 1s;
 }
 
-.MyStack:hover{
+.music-text-container:hover{
     box-shadow:
             0 0 100px rgba(255, 255, 255, 0.3);
     transition: 1s;
 }
 
-.stack-logo{
-    margin-left: 9%;
-    width: 6vw;
-    margin-bottom: 5vw;
+.music-title{
+    padding-left: 25%;
+    font-size: 1.5vw;
 }
-
-
-.stack-text{
-    padding-left: 37%;
-    font-size: 1vw;
-}
-
-
-
-

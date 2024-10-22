@@ -7,7 +7,7 @@ import {Image} from "antd";
 
 const MyLinks: React.FC = () =>{
     return(
-        <div className="MyLinks">
+        <div className="back-box">
             <div className="links-text">
                 <h1>
                     MyLinks:

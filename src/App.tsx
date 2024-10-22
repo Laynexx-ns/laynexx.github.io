@@ -11,6 +11,7 @@ import MyLinks from "./Links/MyLinks";
 import MyStack from "./Links/MyStack";
 import FullBack from "./MainBack/fullBack";
 import myLogo from './images/logo.png'
+import FavoriteMusic from "./Links/FavoriteMusic";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
                   </div>
                   <div className="my-stack">
                       <MyStack/>
+                  </div>
+                  <div className="my-music">
+                      <FavoriteMusic/>
                   </div>
               </div>
           </div>

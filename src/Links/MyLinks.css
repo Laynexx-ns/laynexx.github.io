@@ -9,7 +9,7 @@ body, html {
 }
 
 
-.MyLinks {
+.back-box {
     background-color: rgb(0, 0, 0);
     color: white;
     width: 100%;
@@ -26,7 +26,7 @@ body, html {
     width: 6vw;
     margin-bottom: 5vw;
     border-radius: 200px;
-    transition: box-shadow 1s, scale 800ms;
+    transition: box-shadow 1s, scale 400ms;
 }
 
 .logo:hover{
@@ -36,12 +36,9 @@ body, html {
 }
 
 
-
-
-
-.MyLinks:hover{
+.back-box:hover{
     box-shadow:
-            0 0  100px rgba(246, 246, 246, 0.1);
+            0 0  100px rgba(246, 246, 246, 0.3);
     opacity: 1;
     transition: 1s;
 }
