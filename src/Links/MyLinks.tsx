@@ -15,7 +15,7 @@ const MyLinks: React.FC = () =>{
 
             </div>
             <div className="images-links">
-                <a href={"https://t.me/exldlxx_bezdarnost"}>
+                <a href={"https://t.me/laynexx_bezdar"}>
                     <img className={"logo"} src={telega} alt="Telegram Logo"/>
                 </a>
                 <a href={"https://github.com/Laynexx-ns"}>
