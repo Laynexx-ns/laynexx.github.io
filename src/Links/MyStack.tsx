@@ -13,7 +13,7 @@ const MyStack = () => {
                     MyStack:
                 </h1>
             </div>
-            <div className="images-links">
+            <div className="images-stack">
                 <img className={"stack-logo"} src={csharp}/>
                 <img className={"stack-logo"} src={golang}/>
                 <img className={"stack-logo"} src={ts}/>
