@@ -77,3 +77,21 @@ h1 span {
     margin: 0;
     line-height: 0.7;
 }
+
+@media (max-width: 1200px) {
+    .main-text-section {
+        height: 100px;
+    }
+
+    .HI-text{
+        font-size: 25vw;
+    }
+
+    .Laynexx-text{
+        font-size: 20vw
+    }
+
+    .MyNameIs-text{
+        font-size: 7.5vw;
+    }
+}
